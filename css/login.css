@@ -1,0 +1,37 @@
+#biglogo{
+    left: -50vw;
+    top: -10vh;
+    background-size: 100vh;
+    border-radius: 0 100% 100% 0;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    position: relative;
+    float: right;
+    background-color: #07543A;
+    background-image: url("../img/logos/headerlogo.png");
+}
+.login{
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+    position: relative;
+    top: 10vh;
+}
+
+#logo-small{
+    margin-top: 78px;
+    margin-bottom: 46px;
+}
+.formato{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 720px; */
+}
+#conteudo{
+    /* margin-bottom: auto; */
+    margin-left: 52%;
+}
+.form{
+    width: 45vw;
+}

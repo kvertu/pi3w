@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Montserrat-regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-xbold;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+/* Cores e estilo de cards */
+.card-product{
+    min-height: 316px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 24px;
+    border: 0px;
+    border-radius: 0px;
+    float: left;
+}
+.card-img-top{
+    background-position: center;
+}
+
+/* Cores e estilo de botões */
+.btn-primary{
+    --bs-btn-color: white;
+    --bs-btn-active-bg: #07543A;
+    --bs-btn-active-border-color: #07543A;
+    --bs-btn-hover-bg: #07543A;
+    --bs-btn-hover-border-color: #07543A;
+    --bs-btn-disabled-bg: #07543acc;
+    --bs-btn-disabled-border-color: #07543a00;
+    background-color: #22A076;
+    border: 3px solid #22A076;
+}
+.btn-outline-secondary{
+    --bs-btn-color: white;
+    --bs-btn-active-bg: #07543A;
+    --bs-btn-active-border-color: #07543A;
+    --bs-btn-hover-bg: #22A076;
+    --bs-btn-hover-border-color: #22A076; 
+    background-color: transparent;
+    border: 3px solid white;
+}
+.btn-outline-primary{
+    --bs-btn-color: #22A076;
+    --bs-btn-active-bg: #07543A;
+    --bs-btn-active-border-color: #07543A;
+    --bs-btn-hover-bg: #22A076;
+    --bs-btn-hover-border-color: #22A076; 
+    background-color: transparent;
+    border: 3px solid #22A076;
+}
+
+
+/* Tamanhos de botões */
+.btn-large{
+    height: 42px;
+    /* width: 352px; */
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    font-size: 24px;
+    border-radius: 16px;
+    padding: 0px;
+}
+.btn-medium{
+    height: 35px;
+    /* width: 136px; */
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 2px;
+}
+
+/* Paginação */
+.active-page{
+    --bs-pagination-active-bg: #07543A;
+    --bs-pagination-active-border-color: #07543A;
+}
+.page-link{
+    --bs-pagination-color: #07543A;
+    --bs-pagination-hover-color: #07543A;
+}
+
+body{
+    font-family: Montserrat-regular, sans-serif;
+}
+h2{
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    font-size: 32px;
+}
+strong{
+    font-family: Montserrat-bold;
+    font-weight: normal;
+}
+.xbold{
+    font-family: Montserrat-xbold;
+    font-weight: normal;
+}
+
+/* Cores do background */
+.bg-verde{
+    background-color: #22A076;
+}
+.bg-verdeclaro{
+    background-color: #DCFFE8;
+}
+.bg-verdeclaro2{
+    background-color: #F1FFF9;
+}
+.bg-branco{
+    background-color: #FFFFFF;
+}
+.bg-cinza{
+    background-color: #606675;
+}
+
+/* Cores */
+.verdescuro{
+    color: #07543A;
+}
+.verde{
+    color: #22A076;
+}
+.verdeclaro{
+    color: #DCFFE8;
+}
+.branco{
+    color: #FFFFFF;
+}
+.cinza{
+    color: #606675;
+}
+.vermelho{
+    color: #ca0f0f;
+}
+
+/* Tamanhos da fonte */
+.font-20{
+    font-size: 20px;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-32{
+    font-size: 32px;
+}
+.font-8{
+    font-size: 8px;
+}
+
+/* Anular formatação padrão */
+.marginless{
+    margin: 0px;
+}
+.marginb-40{
+    margin-bottom: 40px;
+}
+.marginb-44{
+    margin-bottom: 44px;
+}
+.marginb-56{
+    margin-bottom: 56px;
+}
+.paddingless{
+    padding: 0px;
+}
+.marginb-96{
+    margin-bottom: 96px;
+}
+.marginb-88{
+    margin-bottom: 88px;
+}
+.marginb-74{
+    margin-bottom: 74px;
+}
+/* Formatação de texto */
+.crossed-out{
+    text-decoration: line-through;
+}

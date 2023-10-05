@@ -1,0 +1,70 @@
+header{
+    margin-bottom: 90px;
+}
+#header-bg-nav{
+    margin-bottom: 56px;
+}
+#header-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+#cesta{
+    margin-top: 14px;
+}
+.input-menu{
+    height: 38px;
+}
+.dropdown-toggle{
+    text-decoration: none;
+}
+.dropdown-toggle:hover{
+    color: white;
+}
+.dropdown-item{
+    color: #07543A;
+    --bs-navbar-active-color: white;
+}
+.dropdown-item:hover{
+    color: #07543A;
+}
+
+.nav-pills{
+    --bs-nav-pills-border-radius: 16px;
+    --bs-nav-pills-link-active-bg: #22A076;
+    --bs-nav-pills-link-active-color: #FFFFFF;
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    font-size: 16px;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: #393939; 
+}
+.navegacao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#acesso{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-link{
+    text-decoration: none;
+}
+.navbar-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+#navbar-cesta:hover{
+    color: #07543A;
+}
+/* Botão de cesta */
+.cesta-active{
+    background-color: white;
+    border: 8px solid white;
+    color: #22A076;
+    font-family: Montserrat-bold;
+}
+.cesta-active:hover{
+    color: #22A076;
+    text-decoration: none;
+}

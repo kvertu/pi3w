@@ -1,0 +1,30 @@
+#footer-logo{
+    width: 168px;
+    height: 168px;
+    border-radius: 100%;
+}
+#filler{
+    height: 56px;
+}
+#footer-coisas{
+    height: fit-content;
+    border-color: #606675;
+    border-style: solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+.footer-link{
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #07543A;
+    text-decoration: underline;
+}
+.footer-section{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footer-icon{
+    margin-left: 24px;
+}

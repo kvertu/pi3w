@@ -1,0 +1,17 @@
+#acesso-negado{
+    padding-top: 77px;
+    height: 342px;
+    border-radius: 8px;
+    margin-bottom: 88px;
+}
+.card-cesta{
+    padding: 16px;
+    margin-bottom: 16px;
+}
+#btn-f-bottom{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.exclusao:hover{
+    color: #971313;
+}

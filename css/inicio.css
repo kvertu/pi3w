@@ -1,0 +1,34 @@
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #097B5F;
+    height: 392px;
+    margin-bottom: 56px;
+}
+#banner-index{background-image: url(../img/banners/banner_home.png);}
+#banner-index-logged{background-image: url(../img/banners/banner_home_logged.png);}
+#btn-banner-index{
+    position: relative;
+    top: 255px;
+    align-items: center;
+}
+#card-product-temp{
+    margin-right: 0px;
+}
+hr{
+    height: 1px;
+    background-color: #707070;
+}
+.promo{
+    margin-top: 48px;
+    margin-bottom: 82px;
+    width: 100%;
+    /* height: 256px; */
+    border-radius: 8px;
+}
+.forn{
+    margin-bottom: 80px;
+    width: 100%;
+/*    height: 104px; Deixa as imagens distorcidas, não usar por enquanto */
+    border-radius: 8px;
+}
